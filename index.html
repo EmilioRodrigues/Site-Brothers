@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Irmãos Mario Manutenção Predial</title>
+  </head> 
+
+  <body>
+    
+    <div class="mascara-formulario" onclick="esconderForm()"></div>
+
+    <div class="header">
+      <img src="./img/pngimg.com - mario_PNG92.png" alt="icone da cabeça do mario">
+      <a href="">Home</a>
+      <a href="">Nossos serviços</a>
+      <a href="">Fale conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+      
+      <div class="caixa-principal">
+       
+        <img
+          src="img/logo.png"
+          alt="logotipo do Mario Bros"
+          class="logo-mario"
+        />
+
+        
+        <p>
+          Lorem ipsum dolor sit amet, <b>consectetur adipisicing</b> elit. Recusandae
+          aliquid culpa accusamus perfer
+        </p>
+        
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+          excepturi obcaecati alias, blanditiis iusto quia corporis illo.
+          Tenetur voluptatem, reprehenderit animi, ipsam sunt molestiae vel
+          repudiandae, cum iure soluta eos.
+        </p>
+       
+        <button class="botao-entre-contato" onclick="mostrarForm()">Nos chame!!!</button>
+
+      </div>
+
+      <div>
+        <img src="img/mario-bro.png" alt="mario e luigi" class="brothers" />
+      </div>
+    </div>
+
+    <div class="caixa-video">
+      <video
+        src="./img/Super Mario Bros – O Filme _ Super Mario Bros  Encanadores.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="mascara"></div>
+    </div>
+
+    <a href="https://api.whatsapp.com/send?phone=5585992045445" class="linkzap">
+      <img src="./img/whatsapp.png" alt="link do zap">
+    </a>
+
+    <form class="formulario-fale-conosco"   
+    action="https://formcarry.com/s/ZE2hzGHKhO6"
+    method="POST"
+    enctype="multipart/form-data">
+        <input type="text" placeholder="Digite seu nome" name="nome"> 
+        <input type="email" placeholder="Seu email"  name="email">
+        <textarea 
+        placeholder="Escreva aqui..." 
+        id="duvidas" cols="30" rows="10" 
+        name="duvidascliente"
+        ></textarea>
+        <button type="submit">Pedir orçamento</button>
+    </form>
+
+    <script src="script.js" ></script>
+
+  </body>
+</html>

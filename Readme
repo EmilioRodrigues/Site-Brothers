@@ -1,0 +1,7 @@
+Este é meu primeiro projeto realizado na DevClub, a aplicação conta com uso de Html, Css e JS. 
+A estrutura html é simples e a codificação é de facil manutenção
+O Css foi desenvolvido a medida que o projeto ia tomando forma, utilizei o '@media query' pra ajudar na responsividade.
+O JS implementei com functions e eventos para uma melhor experiencia do usuario, com movimentação do form e aplicação de mascaras simultaneas.
+O  form foi implementado com o FormCarry, direcionando os dados dos clientes para um email pre definido.
+
+O projeto  ainda sera refatorado em busca de melhorias.
